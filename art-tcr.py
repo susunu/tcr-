@@ -9,27 +9,27 @@ import re,string,os
 import os.path,sys,urllib,shutil,subprocess,pickle
 
 cl = LINETCR.LINE()
-cl.login(qr=True)
+cl.login(token"Enf1ALa47nDFjKdRctR0.ICalXf3CU/qH5ne0DD0iqa.r0uhpz69n3F2eL+iHbm1TXRkokw9FrELB/AzsFw/Nyw=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(qr=True)
+ki.login(token="EnljUJbAZQ9yT3LbGnq0.QNjm84dKiosW9im6MSqyya.MXjGkKERHVJykvF8DzqA2IP3WPbjN/Ij3/5yJfk24p0=")
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(qr=True)
+kk.login(token="EnWqh07KO5DFgnFUl9kb.Z/boAPuD2325BkrIchCvcW.mJ9c5ydTRq5fH3si0nkdoTJ0GNvPdLCEnGhcEFBT4SQ=")
 kk.loginResult()
 
 ks = LINETCR.LINE()
-ks.login(qr=True)
+ks.login(token="En40NHzj8i8l9GQ3KPI6.yBVBTPsh6djJxYEgfejy1G.hHwW+/3aucNV8UPWycO9a/LK4hFWmvvKq3XFg4+bhtc=")
 ks.loginResult()
 
 kc = LINETCR.LINE()
-kc.login(qr=True)
+kc.login(token="EniLUSm5iBS0K7RIVqw2.rm2ylLXzJpoyheGEx9PgmG.juVpc/BOhQNfp9rjY2rF5YsAa8EcsqRYlKr3yAbvB90=")
 kc.loginResult()
 
 ka = LINETCR.LINE()
-ka.login(qr=True)
+ka.login(token="EnaXJxfSC3wEVWbwg1U0.69osV+8trGuFEstLKjBzWa.EdW/8gOduZlHmTA4Z6yi79pUIpOnesvxWfOV1GfGUSc=")
 ka.loginResult()
 
 cl
@@ -40,7 +40,7 @@ with open('profileSave.pkl') as f:
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
-helpMessage ="""☬̫̫A̫̫R̫̫T̫̫H̫̫U̫̫R̫̫☬̫ SELF BOT
+helpMessage ="""By.Nunu
 [ᴛᴇᴀᴍ ᴛᴇ̲̅s̲̅ᴛ ʙᴏᴛ]
 
 [☬] ᴄᴏᴍᴍᴀɴᴅ [☬]
@@ -112,7 +112,7 @@ helpMessage ="""☬̫̫A̫̫R̫̫T̫̫H̫̫U̫̫R̫̫☬̫ SELF BOT
 
 •─✯͜͡ ᴀʀᴛʜᴜʀ ʙᴏᴛ★
 ═══════════════════
-line.me/ti/p/~art-bot-cyber01
+http://line.me/ti/p/ShgslAPyYS
 ═══════════════════
 """
 helpMessage2 ="""[ᴛᴇᴀᴍ ᴛᴇ̲̅s̲̅ᴛ ʙᴏᴛ]
@@ -130,8 +130,7 @@ kimid = kk.getProfile().mid
 ki2mid = ks.getProfile().mid
 Cmid = kc.getProfile().mid
 Emid = ka.getProfile().mid
-admin = ["u8e24585f8677458d62ce174ff6dacc83","uf291388a1ed2cb1a0864b84a7b6106a6"]
-me = cl.getProfile().mid
+admin = ["u2c7f708769a2eb35d9ae9f73cd366e0b"]
 bot1 = cl.getProfile().mid
 main = cl.getProfile().mid
 kicker1 = ki.getProfile().mid
@@ -162,9 +161,9 @@ wait = {
     'leaveRoom':False,
     'timeline':False,
     'autoAdd':True,
-    'message':"Owner http://line-tcr.py/ti/p/~art-bot-cyber01",
+    'message':" ",
     "lang":"JP",
-    "comment":"Auto like By.✨☬http://line.me/ti/p/~art-bot-cyber01☬",
+    "comment":" ",
     "likeOn":True,
     "commentOn":True,
     "commentBlack":{},
