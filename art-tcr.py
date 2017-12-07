@@ -113,6 +113,7 @@ helpMessage ="""By.Nunu
 •─✯͜͡ ᴀʀᴛʜᴜʀ ʙᴏᴛ★
 ═══════════════════
 http://line.me/ti/p/ShgslAPyYS
+
 ═══════════════════
 """
 helpMessage2 ="""[ᴛᴇᴀᴍ ᴛᴇ̲̅s̲̅ᴛ ʙᴏᴛ]
@@ -124,13 +125,20 @@ helpMessage2 ="""[ᴛᴇᴀᴍ ᴛᴇ̲̅s̲̅ᴛ ʙᴏᴛ]
 ======================	
 """
 KAC = [cl,ki,kk,ks,kc,ka]
+KAB1 = ki.getProfile().mid
+KAB2 = kk.getProfile().mid
+KAB3 = ks.getProfile().mid
+KAB4 = kc.getProfile().mid
+KAB5 = ka.getProfile().mid
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 kimid = kk.getProfile().mid
 ki2mid = ks.getProfile().mid
 Cmid = kc.getProfile().mid
 Emid = ka.getProfile().mid
+Bots=[mid,Amid,kimid,ki2mid,Cmid,Emid]
 admin = ["u2c7f708769a2eb35d9ae9f73cd366e0b"]
+me = cl.getProfile().mid
 bot1 = cl.getProfile().mid
 main = cl.getProfile().mid
 kicker1 = ki.getProfile().mid
@@ -139,6 +147,7 @@ kicker3 = ks.getProfile().mid
 kicker4 = kc.getProfile().mid
 kicker5 = ka.getProfile().mid
 bots = me + kicker1
+protectname = []
 protecturl = []
 protection = []
 autocancel = {}
